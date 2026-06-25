@@ -1,0 +1,73 @@
+com.example.weathercloth.v2.app-jetified-foundation-release-0 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\0021ccaad6871b1a71b6365be22224d4\transformed\jetified-foundation-release\res
+com.example.weathercloth.v2.app-appcompat-1.6.1-1 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\03d0185d5e28968f2510fd90c76a5316\transformed\appcompat-1.6.1\res
+com.example.weathercloth.v2.app-jetified-material-ripple-release-2 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\071cb6ffcf90a56c04b18b3793581c95\transformed\jetified-material-ripple-release\res
+com.example.weathercloth.v2.app-jetified-runtime-saveable-release-3 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\109f927742ba3dede6db809743ddc505\transformed\jetified-runtime-saveable-release\res
+com.example.weathercloth.v2.app-jetified-lifecycle-viewmodel-compose-release-4 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\14c4be5930b5c2b0cc1ece37e24393ea\transformed\jetified-lifecycle-viewmodel-compose-release\res
+com.example.weathercloth.v2.app-jetified-appcompat-resources-1.6.1-5 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\1813208877cfb7efeebfa9070ce179e4\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.weathercloth.v2.app-jetified-coil-base-2.7.0-6 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\1a99e83990f42b5cca771c89dc43b3a7\transformed\jetified-coil-base-2.7.0\res
+com.example.weathercloth.v2.app-jetified-lifecycle-service-2.8.4-7 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\1c8ff97727e4d171bbc4e14331a62deb\transformed\jetified-lifecycle-service-2.8.4\res
+com.example.weathercloth.v2.app-jetified-lifecycle-livedata-core-ktx-2.8.4-8 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\25310cee713f80fefeb971294975f40d\transformed\jetified-lifecycle-livedata-core-ktx-2.8.4\res
+com.example.weathercloth.v2.app-navigation-common-ktx-2.7.7-9 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\290ff81ef213f1dd5a694aa49ba9dd32\transformed\navigation-common-ktx-2.7.7\res
+com.example.weathercloth.v2.app-jetified-animation-core-release-10 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\2daef2b81dc9cead95243b7d948725c2\transformed\jetified-animation-core-release\res
+com.example.weathercloth.v2.app-jetified-material-icons-extended-release-11 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\2f0e3e521086d6862107e5e584d744df\transformed\jetified-material-icons-extended-release\res
+com.example.weathercloth.v2.app-lifecycle-livedata-core-2.8.4-12 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\36bcdda6aa53e7537177116bd065d0db\transformed\lifecycle-livedata-core-2.8.4\res
+com.example.weathercloth.v2.app-room-runtime-2.6.1-13 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\38a853dc1ea797306df01e9df65651a7\transformed\room-runtime-2.6.1\res
+com.example.weathercloth.v2.app-jetified-lifecycle-runtime-release-14 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\482877a4b159cc2e0ee6c92416915ffe\transformed\jetified-lifecycle-runtime-release\res
+com.example.weathercloth.v2.app-jetified-ui-unit-release-15 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4914d49d4dcb328a5c6e69518ed29dfb\transformed\jetified-ui-unit-release\res
+com.example.weathercloth.v2.app-work-runtime-2.9.1-16 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\res
+com.example.weathercloth.v2.app-jetified-ui-tooling-preview-release-17 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4a40898a9bdd59c58284cc195cc894f1\transformed\jetified-ui-tooling-preview-release\res
+com.example.weathercloth.v2.app-jetified-runtime-release-18 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4d431cd45673a7d5c70db3191ccfa607\transformed\jetified-runtime-release\res
+com.example.weathercloth.v2.app-jetified-ui-util-release-19 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4e92379218c539d52a979186f9d6d848\transformed\jetified-ui-util-release\res
+com.example.weathercloth.v2.app-sqlite-framework-2.4.0-20 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\503d4e1aa305b5dbe9b7c9dd2f734de8\transformed\sqlite-framework-2.4.0\res
+com.example.weathercloth.v2.app-jetified-savedstate-1.2.1-21 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\57b24b7996ee061b66cebf8033e6a55d\transformed\jetified-savedstate-1.2.1\res
+com.example.weathercloth.v2.app-jetified-ui-graphics-release-22 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\5d997424cc349becf16292002ae519f3\transformed\jetified-ui-graphics-release\res
+com.example.weathercloth.v2.app-navigation-runtime-ktx-2.7.7-23 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\642f0c8688c11160039fe4cb0e80e11f\transformed\navigation-runtime-ktx-2.7.7\res
+com.example.weathercloth.v2.app-navigation-common-2.7.7-24 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\66ac93e292934f12bf7cdbb4ba770564\transformed\navigation-common-2.7.7\res
+com.example.weathercloth.v2.app-jetified-emoji2-views-helper-1.3.0-25 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\7190c16400ec85da76178c79e7555f72\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.example.weathercloth.v2.app-jetified-ui-tooling-data-release-26 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\71cac96b1334954cf531fc5e97d22be8\transformed\jetified-ui-tooling-data-release\res
+com.example.weathercloth.v2.app-jetified-lifecycle-viewmodel-ktx-2.8.4-27 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\71fc53d4a8f5f11689f7ba8fbf571e38\transformed\jetified-lifecycle-viewmodel-ktx-2.8.4\res
+com.example.weathercloth.v2.app-jetified-activity-1.9.1-28 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\724942e8cb468dab94b5f9ad7f9222f3\transformed\jetified-activity-1.9.1\res
+com.example.weathercloth.v2.app-jetified-material3-release-29 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\72f372aff269cd13c6f93debd5038691\transformed\jetified-material3-release\res
+com.example.weathercloth.v2.app-jetified-lifecycle-process-2.8.4-30 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\771e9e621f9c6ce283708e59a1bdd0a2\transformed\jetified-lifecycle-process-2.8.4\res
+com.example.weathercloth.v2.app-jetified-ui-release-31 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\77e47187d2f83c5b9161eca80871642d\transformed\jetified-ui-release\res
+com.example.weathercloth.v2.app-jetified-activity-compose-1.9.1-32 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\792ca555ecb1362bbc607259208253aa\transformed\jetified-activity-compose-1.9.1\res
+com.example.weathercloth.v2.app-core-1.13.1-33 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\7de0410983b0ca75b2a885bfc49757ba\transformed\core-1.13.1\res
+com.example.weathercloth.v2.app-work-runtime-ktx-2.9.1-34 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\806053931ab8573aebc0f2900985261d\transformed\work-runtime-ktx-2.9.1\res
+com.example.weathercloth.v2.app-fragment-1.3.6-35 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\83025ce948804f55305a50c34fd6a442\transformed\fragment-1.3.6\res
+com.example.weathercloth.v2.app-lifecycle-livedata-2.8.4-36 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\88ca3ca85f9bbc142f4e01aefbaf0e71\transformed\lifecycle-livedata-2.8.4\res
+com.example.weathercloth.v2.app-jetified-ui-geometry-release-37 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\88cefe72fd92ad9454c5adb0a055d3c7\transformed\jetified-ui-geometry-release\res
+com.example.weathercloth.v2.app-jetified-lifecycle-viewmodel-release-38 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\8a4273477eeed73e42794fa5a4399b63\transformed\jetified-lifecycle-viewmodel-release\res
+com.example.weathercloth.v2.app-jetified-play-services-base-18.5.0-39 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\8bd417446cc9507c8a28c86c4622bf11\transformed\jetified-play-services-base-18.5.0\res
+com.example.weathercloth.v2.app-jetified-datastore-preferences-release-40 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\8cee51715cd85ca8e40f73a51134c736\transformed\jetified-datastore-preferences-release\res
+com.example.weathercloth.v2.app-jetified-customview-poolingcontainer-1.0.0-41 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\8e8d7681963ccbfa8dec55d5c8371186\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.example.weathercloth.v2.app-jetified-activity-ktx-1.9.1-42 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\93cc627fdd6847e5347358bcf32aedd6\transformed\jetified-activity-ktx-1.9.1\res
+com.example.weathercloth.v2.app-jetified-core-ktx-1.13.1-43 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\95096f6b00bf2e435d9e42184c8e673f\transformed\jetified-core-ktx-1.13.1\res
+com.example.weathercloth.v2.app-jetified-datastore-release-44 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\9568e99548acc3e4eb1215f395380f05\transformed\jetified-datastore-release\res
+com.example.weathercloth.v2.app-jetified-emoji2-1.3.0-45 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\965d409cadf059ab6d93faa105d54be1\transformed\jetified-emoji2-1.3.0\res
+com.example.weathercloth.v2.app-jetified-ui-text-release-46 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\9b2d6900dd84f7f596b8ba5f51efd3be\transformed\jetified-ui-text-release\res
+com.example.weathercloth.v2.app-jetified-animation-release-47 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\a3538ca395be8b3720fad0e06f3ae45c\transformed\jetified-animation-release\res
+com.example.weathercloth.v2.app-jetified-annotation-experimental-1.4.0-48 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\a6b193f8a72bc0a0327f48bb28f543a5\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.weathercloth.v2.app-sqlite-2.4.0-49 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\ab836d8d0a220d4bf1e20c0a30201c25\transformed\sqlite-2.4.0\res
+com.example.weathercloth.v2.app-core-runtime-2.2.0-50 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\ae6b03c3252596e30870112205a0df2a\transformed\core-runtime-2.2.0\res
+com.example.weathercloth.v2.app-jetified-foundation-layout-release-51 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\b031993b1c83830cce4b84d99665434e\transformed\jetified-foundation-layout-release\res
+com.example.weathercloth.v2.app-jetified-startup-runtime-1.1.1-52 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\b4e0c04d5d69ca14de80bd15c0bed428\transformed\jetified-startup-runtime-1.1.1\res
+com.example.weathercloth.v2.app-jetified-navigation-compose-2.7.7-53 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\bcf85092a77f931e13f6c10d4e187410\transformed\jetified-navigation-compose-2.7.7\res
+com.example.weathercloth.v2.app-jetified-lifecycle-viewmodel-savedstate-2.8.4-54 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\befa59811ee4051f7315f89af80d897b\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.4\res
+com.example.weathercloth.v2.app-jetified-savedstate-ktx-1.2.1-55 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\c111d27c0a48a9914e3a9356fb87e95f\transformed\jetified-savedstate-ktx-1.2.1\res
+com.example.weathercloth.v2.app-jetified-play-services-basement-18.4.0-56 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\c2630b7442db97dbf1c2204c1087292b\transformed\jetified-play-services-basement-18.4.0\res
+com.example.weathercloth.v2.app-jetified-room-ktx-2.6.1-57 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\ca17e07c8aa16a882b31a1cdeb869892\transformed\jetified-room-ktx-2.6.1\res
+com.example.weathercloth.v2.app-navigation-runtime-2.7.7-58 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\cc9312e5f4ed4a70fda3f70fd53622fa\transformed\navigation-runtime-2.7.7\res
+com.example.weathercloth.v2.app-jetified-material-release-59 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\d5d8a8a98ef704ef49950cf0cfc6b57f\transformed\jetified-material-release\res
+com.example.weathercloth.v2.app-jetified-datastore-core-release-60 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\ecf7d6fc4c912e67a18fa1708743f550\transformed\jetified-datastore-core-release\res
+com.example.weathercloth.v2.app-jetified-ui-tooling-release-61 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\f1e9a8988b6d5e230928ccd43c8c5056\transformed\jetified-ui-tooling-release\res
+com.example.weathercloth.v2.app-jetified-material-icons-core-release-62 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\f3d8c57182456eb01038480bf72725c4\transformed\jetified-material-icons-core-release\res
+com.example.weathercloth.v2.app-jetified-lifecycle-runtime-ktx-release-63 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\f85b2115f440c954031787a01fe995ba\transformed\jetified-lifecycle-runtime-ktx-release\res
+com.example.weathercloth.v2.app-jetified-profileinstaller-1.3.1-64 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\res
+com.example.weathercloth.v2.app-jetified-lifecycle-runtime-compose-release-65 C:\Users\lenovo\.gradle\caches\9.0.0\transforms\febd12b6da4ec05e328dc39974375da5\transformed\jetified-lifecycle-runtime-compose-release\res
+com.example.weathercloth.v2.app-pngs-66 C:\Users\lenovo\Desktop\weather cloth\new model\app\build\generated\res\pngs\debug
+com.example.weathercloth.v2.app-resValues-67 C:\Users\lenovo\Desktop\weather cloth\new model\app\build\generated\res\resValues\debug
+com.example.weathercloth.v2.app-packageDebugResources-68 C:\Users\lenovo\Desktop\weather cloth\new model\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.weathercloth.v2.app-packageDebugResources-69 C:\Users\lenovo\Desktop\weather cloth\new model\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.weathercloth.v2.app-debug-70 C:\Users\lenovo\Desktop\weather cloth\new model\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.weathercloth.v2.app-debug-71 C:\Users\lenovo\Desktop\weather cloth\new model\app\src\debug\res
+com.example.weathercloth.v2.app-main-72 C:\Users\lenovo\Desktop\weather cloth\new model\app\src\main\res

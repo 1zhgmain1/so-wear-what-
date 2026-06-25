@@ -1,0 +1,45 @@
+﻿<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sun circle -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M42,36a12,12 0,1 1,24 0a12,12 0,1 1,-24 0z"/>
+
+    <!-- Sun rays -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M54,18v4M54,86v4M36,22l3,3M69,83l3,3M24,36l4,1M80,71l4,1M22,54h4M82,54h4M24,72l4,-1M36,86l3,-3M80,37l4,-1M69,25l3,-3"
+        android:strokeColor="#FFD93D"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Cloud -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,44a8,8 0,0 1,15 3a6,6 0,0 1,2 11a8,8 0,0 1,-17 -1a6,6 0,0 1,0 -13z"/>
+
+    <!-- Hanger/shirt body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,68l-4,24h24l-4,-24z"/>
+
+    <!-- Hanger neck -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,68l8,-8l8,8z"/>
+
+    <!-- Hanger hook -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,60l-2,-12h14l-2,12"/>
+
+    <!-- Hanger top bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,60h22v3H43z"/>
+
+</vector>

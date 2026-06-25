@@ -1,0 +1,457 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weathercloth.v2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:2:5-67
+11-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:3:5-79
+12-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:4:5-81
+13-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:5:5-65
+14-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:5:22-62
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:6:5-77
+15-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:6:22-74
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:7:5-79
+16-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:7:22-76
+17    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+17-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:8:5-79
+17-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:8:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:23:5-68
+18-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:23:22-65
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:25:5-81
+19-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:25:22-78
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:26:5-77
+20-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:26:22-74
+21
+22    <permission
+22-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\7de0410983b0ca75b2a885bfc49757ba\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.weathercloth.v2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\7de0410983b0ca75b2a885bfc49757ba\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\7de0410983b0ca75b2a885bfc49757ba\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.weathercloth.v2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\7de0410983b0ca75b2a885bfc49757ba\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\7de0410983b0ca75b2a885bfc49757ba\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:10:5-29:19
+29        android:name="com.example.weathercloth.v2.WeatherClothApp"
+29-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:11:9-40
+30        android:allowBackup="true"
+30-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:12:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.13.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\7de0410983b0ca75b2a885bfc49757ba\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@drawable/ic_launcher_foreground"
+34-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:13:9-56
+35        android:label="@string/app_name"
+35-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:14:9-41
+36        android:roundIcon="@drawable/ic_launcher_foreground"
+36-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:15:9-61
+37        android:supportsRtl="true"
+37-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:16:9-35
+38        android:theme="@style/Theme.WeatherClothV2" >
+38-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:17:9-52
+39        <activity
+39-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:18:9-25:20
+40            android:name="com.example.weathercloth.v2.MainActivity"
+40-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:19:13-41
+41            android:exported="true" >
+41-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:20:13-36
+42            <intent-filter>
+42-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:21:13-24:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:22:17-69
+43-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:22:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:23:17-77
+45-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:23:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <receiver
+49-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:26:9-28:40
+50            android:name="com.example.weathercloth.v2.notification.DailyReminderReceiver"
+50-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:27:13-63
+51            android:exported="false" />
+51-->C:\Users\lenovo\Desktop\weather cloth\new model\src\main\AndroidManifest.xml:28:13-37
+52
+53        <service
+53-->[com.google.mlkit:image-labeling:17.0.9] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\a156cec4b2008a007f951d0302e991e8\transformed\jetified-image-labeling-17.0.9\AndroidManifest.xml:8:9-14:19
+54            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+54-->[com.google.mlkit:image-labeling:17.0.9] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\a156cec4b2008a007f951d0302e991e8\transformed\jetified-image-labeling-17.0.9\AndroidManifest.xml:9:13-91
+55            android:directBootAware="true"
+55-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:17:13-43
+56            android:exported="false" >
+56-->[com.google.mlkit:image-labeling:17.0.9] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\a156cec4b2008a007f951d0302e991e8\transformed\jetified-image-labeling-17.0.9\AndroidManifest.xml:10:13-37
+57            <meta-data
+57-->[com.google.mlkit:image-labeling:17.0.9] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\a156cec4b2008a007f951d0302e991e8\transformed\jetified-image-labeling-17.0.9\AndroidManifest.xml:11:13-13:85
+58                android:name="com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar"
+58-->[com.google.mlkit:image-labeling:17.0.9] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\a156cec4b2008a007f951d0302e991e8\transformed\jetified-image-labeling-17.0.9\AndroidManifest.xml:12:17-132
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.mlkit:image-labeling:17.0.9] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\a156cec4b2008a007f951d0302e991e8\transformed\jetified-image-labeling-17.0.9\AndroidManifest.xml:13:17-82
+60            <meta-data
+60-->[com.google.mlkit:vision-internal-vkp:18.2.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\cf28c78a2a7673d16fa3b49c53e96df8\transformed\jetified-vision-internal-vkp-18.2.3\AndroidManifest.xml:14:13-16:85
+61                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+61-->[com.google.mlkit:vision-internal-vkp:18.2.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\cf28c78a2a7673d16fa3b49c53e96df8\transformed\jetified-vision-internal-vkp-18.2.3\AndroidManifest.xml:15:17-103
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.mlkit:vision-internal-vkp:18.2.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\cf28c78a2a7673d16fa3b49c53e96df8\transformed\jetified-vision-internal-vkp-18.2.3\AndroidManifest.xml:16:17-82
+63            <meta-data
+63-->[com.google.mlkit:vision-common:17.3.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\d426876f01059341c0fb5e32069e168d\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+64                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+64-->[com.google.mlkit:vision-common:17.3.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\d426876f01059341c0fb5e32069e168d\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.mlkit:vision-common:17.3.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\d426876f01059341c0fb5e32069e168d\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+66            <meta-data
+66-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:20:13-22:85
+67                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+67-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:21:17-120
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:22:17-82
+69        </service>
+70
+71        <provider
+71-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:9:9-13:38
+72            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+72-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:10:13-78
+73            android:authorities="com.example.weathercloth.v2.mlkitinitprovider"
+73-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:11:13-69
+74            android:exported="false"
+74-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:12:13-37
+75            android:initOrder="99" />
+75-->[com.google.mlkit:common:18.11.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\85d273ec9e9599d052d4c5ec41d830a2\transformed\jetified-common-18.11.0\AndroidManifest.xml:13:13-35
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\8bd417446cc9507c8a28c86c4622bf11\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\8bd417446cc9507c8a28c86c4622bf11\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\8bd417446cc9507c8a28c86c4622bf11\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\8bd417446cc9507c8a28c86c4622bf11\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+81
+82        <service
+82-->[androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\38a853dc1ea797306df01e9df65651a7\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+83            android:name="androidx.room.MultiInstanceInvalidationService"
+83-->[androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\38a853dc1ea797306df01e9df65651a7\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+84            android:directBootAware="true"
+84-->[androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\38a853dc1ea797306df01e9df65651a7\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+85            android:exported="false" />
+85-->[androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\38a853dc1ea797306df01e9df65651a7\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+86
+87        <provider
+87-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:29:9-37:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:30:13-67
+89            android:authorities="com.example.weathercloth.v2.androidx-startup"
+89-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:31:13-68
+90            android:exported="false" >
+90-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:32:13-37
+91            <meta-data
+91-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:34:13-36:52
+92                android:name="androidx.work.WorkManagerInitializer"
+92-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:35:17-68
+93                android:value="androidx.startup" />
+93-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:36:17-49
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\965d409cadf059ab6d93faa105d54be1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\965d409cadf059ab6d93faa105d54be1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\965d409cadf059ab6d93faa105d54be1\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\771e9e621f9c6ce283708e59a1bdd0a2\transformed\jetified-lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\771e9e621f9c6ce283708e59a1bdd0a2\transformed\jetified-lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\771e9e621f9c6ce283708e59a1bdd0a2\transformed\jetified-lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+102                android:value="androidx.startup" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+103        </provider>
+104
+105        <service
+105-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:39:9-45:35
+106            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+106-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:40:13-88
+107            android:directBootAware="false"
+107-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:41:13-44
+108            android:enabled="@bool/enable_system_alarm_service_default"
+108-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:42:13-72
+109            android:exported="false" />
+109-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:43:13-37
+110        <service
+110-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:46:9-52:35
+111            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+111-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:47:13-84
+112            android:directBootAware="false"
+112-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:48:13-44
+113            android:enabled="@bool/enable_system_job_service_default"
+113-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:49:13-70
+114            android:exported="true"
+114-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:50:13-36
+115            android:permission="android.permission.BIND_JOB_SERVICE" />
+115-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:51:13-69
+116        <service
+116-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:53:9-59:35
+117            android:name="androidx.work.impl.foreground.SystemForegroundService"
+117-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:54:13-81
+118            android:directBootAware="false"
+118-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:55:13-44
+119            android:enabled="@bool/enable_system_foreground_service_default"
+119-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:56:13-77
+120            android:exported="false" />
+120-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:57:13-37
+121
+122        <receiver
+122-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:61:9-66:35
+123            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+123-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:62:13-88
+124            android:directBootAware="false"
+124-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:63:13-44
+125            android:enabled="true"
+125-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:64:13-35
+126            android:exported="false" />
+126-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:65:13-37
+127        <receiver
+127-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:67:9-77:20
+128            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+128-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:68:13-106
+129            android:directBootAware="false"
+129-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:69:13-44
+130            android:enabled="false"
+130-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:70:13-36
+131            android:exported="false" >
+131-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:71:13-37
+132            <intent-filter>
+132-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:73:13-76:29
+133                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+133-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:74:17-87
+133-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:74:25-84
+134                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+134-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:75:17-90
+134-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:75:25-87
+135            </intent-filter>
+136        </receiver>
+137        <receiver
+137-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:78:9-88:20
+138            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+138-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:79:13-104
+139            android:directBootAware="false"
+139-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:80:13-44
+140            android:enabled="false"
+140-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:81:13-36
+141            android:exported="false" >
+141-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:82:13-37
+142            <intent-filter>
+142-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:84:13-87:29
+143                <action android:name="android.intent.action.BATTERY_OKAY" />
+143-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:85:17-77
+143-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:85:25-74
+144                <action android:name="android.intent.action.BATTERY_LOW" />
+144-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:86:17-76
+144-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:86:25-73
+145            </intent-filter>
+146        </receiver>
+147        <receiver
+147-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:89:9-99:20
+148            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+148-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:90:13-104
+149            android:directBootAware="false"
+149-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:91:13-44
+150            android:enabled="false"
+150-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:92:13-36
+151            android:exported="false" >
+151-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:93:13-37
+152            <intent-filter>
+152-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:95:13-98:29
+153                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+153-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:96:17-83
+153-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:96:25-80
+154                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+154-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:97:17-82
+154-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:97:25-79
+155            </intent-filter>
+156        </receiver>
+157        <receiver
+157-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:100:9-109:20
+158            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+158-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:101:13-103
+159            android:directBootAware="false"
+159-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:102:13-44
+160            android:enabled="false"
+160-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:103:13-36
+161            android:exported="false" >
+161-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:104:13-37
+162            <intent-filter>
+162-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:106:13-108:29
+163                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+163-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:107:17-79
+163-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:107:25-76
+164            </intent-filter>
+165        </receiver>
+166        <receiver
+166-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:110:9-121:20
+167            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+167-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:111:13-88
+168            android:directBootAware="false"
+168-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:112:13-44
+169            android:enabled="false"
+169-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:113:13-36
+170            android:exported="false" >
+170-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:114:13-37
+171            <intent-filter>
+171-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:116:13-120:29
+172                <action android:name="android.intent.action.BOOT_COMPLETED" />
+172-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:117:17-79
+172-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:117:25-76
+173                <action android:name="android.intent.action.TIME_SET" />
+173-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:118:17-73
+173-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:118:25-70
+174                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+174-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:119:17-81
+174-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:119:25-78
+175            </intent-filter>
+176        </receiver>
+177        <receiver
+177-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:122:9-131:20
+178            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+178-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:123:13-99
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:124:13-44
+180            android:enabled="@bool/enable_system_alarm_service_default"
+180-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:125:13-72
+181            android:exported="false" >
+181-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:126:13-37
+182            <intent-filter>
+182-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:128:13-130:29
+183                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+183-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:129:17-98
+183-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:129:25-95
+184            </intent-filter>
+185        </receiver>
+186        <receiver
+186-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:132:9-142:20
+187            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+187-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:133:13-78
+188            android:directBootAware="false"
+188-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:134:13-44
+189            android:enabled="true"
+189-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:135:13-35
+190            android:exported="true"
+190-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:136:13-36
+191            android:permission="android.permission.DUMP" >
+191-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:137:13-57
+192            <intent-filter>
+192-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:139:13-141:29
+193                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+193-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:140:17-88
+193-->[androidx.work:work-runtime:2.9.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4966fe9d63b58336a7555ae0446bcbf6\transformed\work-runtime-2.9.1\AndroidManifest.xml:140:25-85
+194            </intent-filter>
+195        </receiver>
+196
+197        <activity
+197-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\f1e9a8988b6d5e230928ccd43c8c5056\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+198            android:name="androidx.compose.ui.tooling.PreviewActivity"
+198-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\f1e9a8988b6d5e230928ccd43c8c5056\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+199            android:exported="true" />
+199-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\f1e9a8988b6d5e230928ccd43c8c5056\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+200
+201        <meta-data
+201-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\c2630b7442db97dbf1c2204c1087292b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+202            android:name="com.google.android.gms.version"
+202-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\c2630b7442db97dbf1c2204c1087292b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+203            android:value="@integer/google_play_services_version" />
+203-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\c2630b7442db97dbf1c2204c1087292b\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+204
+205        <service
+205-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4378f1b9dd69cfbc0b9d45257637e550\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+206            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+206-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4378f1b9dd69cfbc0b9d45257637e550\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+207            android:exported="false" >
+207-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4378f1b9dd69cfbc0b9d45257637e550\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+208            <meta-data
+208-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4378f1b9dd69cfbc0b9d45257637e550\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+209                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+209-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4378f1b9dd69cfbc0b9d45257637e550\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+210                android:value="cct" />
+210-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\4378f1b9dd69cfbc0b9d45257637e550\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+211        </service>
+212        <service
+212-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\e7878c562f41b72b92e603916ed069d7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+213            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+213-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\e7878c562f41b72b92e603916ed069d7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+214            android:exported="false"
+214-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\e7878c562f41b72b92e603916ed069d7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+215            android:permission="android.permission.BIND_JOB_SERVICE" >
+215-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\e7878c562f41b72b92e603916ed069d7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+216        </service>
+217
+218        <receiver
+218-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\e7878c562f41b72b92e603916ed069d7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+219            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+219-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\e7878c562f41b72b92e603916ed069d7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+220            android:exported="false" />
+220-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\e7878c562f41b72b92e603916ed069d7\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+221        <receiver
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+222            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+223            android:directBootAware="false"
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+224            android:enabled="true"
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+225            android:exported="true"
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+226            android:permission="android.permission.DUMP" >
+226-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+227            <intent-filter>
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+228                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+228-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+228-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+229            </intent-filter>
+230            <intent-filter>
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+231                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+232            </intent-filter>
+233            <intent-filter>
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+234                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+235            </intent-filter>
+236            <intent-filter>
+236-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+237                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\9.0.0\transforms\faed8d6b900f49bacb1dbe8b8af29008\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+238            </intent-filter>
+239        </receiver>
+240    </application>
+241
+242</manifest>
